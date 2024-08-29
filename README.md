@@ -1,56 +1,56 @@
-## Abstract
-
-This project analyzes Tesla Inc.'s historical stock prices from June 29, 2010, to February 3, 2023, focusing on key financial indicators such as Open, High, Low, Close prices, and Volume. The aim is to identify patterns, trends, and fluctuations in Tesla's stock, exploring factors like price volatility, trading turnover, and investor sentiment. The insights will aid investors and analysts in forecasting Tesla's future stock movements and understanding the dynamics influencing its price.
-
-## Introduction
-
-Tesla Inc., a prominent player in the EV market, has seen significant growth and volatility in its stock price due to innovations, production records, and market trends. This project examines Tesla's stock data from June 29, 2010, to February 3, 2023, using financial indicators to identify trends and predict future stock price variations. The analysis will leverage statistical and financial modeling techniques to offer forecasts and insights into Tesla's stock performance.
-
-## Objectives
-
-- **Data Cleaning and Preprocessing**: Address missing values and outliers using methods like IQR to ensure data quality.
-- **Feature Normalization and Scaling**: Apply Min-Max Scaling and StandardScaler to normalize Open, High, Low, Close, and Volume data for better model performance.
-- **Exploratory Data Analysis (EDA)**: Utilize box plots, histograms, scatter plots, and pair plots to explore data trends and relationships.
-- **Model Development and Evaluation**: Create and compare Linear Regression, Decision Tree Regressor, and Random Forest Regressor models, evaluating them using MSE, R² Score, and MAE.
-- **Model Selection and Optimization**: Identify the best-performing model and fine-tune it to enhance predictive accuracy.
-
-## Ethical Considerations
-
-The analysis will adhere to ethical research practices, using only open data and maintaining confidentiality. The research is conducted impartially, ensuring that results are unbiased and not influenced by individual investor data.
-
-## Quality Research and Literature Review
-
-The project reviews literature on stock price prediction models, focusing on methodologies and theoretical frameworks for financial forecasting. Studies reviewed include those on deep learning, LSTM networks, and machine learning models for stock price prediction, providing a solid foundation for the project's analysis.
-
-## Critical Assessment of Relevant Published Papers
-
-- **Agrawal** explored deep learning for stock price prediction, using deep neural networks to model complex patterns.
-- **Chaudhary et al.** utilized LSTM networks to predict stock prices, capturing time-dependent relationships.
-- **Hašková et al.** employed fuzzy logic for multi-criteria evaluation of stock prices.
-- **Li** compared different models for Tesla's stock prediction, identifying effective approaches.
-- **Madhusudan** used SVM models for predicting stock prices, focusing on complex data handling.
-- **Nawawi et al.** applied deep learning techniques for forecasting Tesla's stock prices.
-- **Orsel and Yamada (2022)** and **Sk and Javvadi (2023)** compared various machine learning models for stock prediction.
-- **Wang (2024)** examined the effectiveness of Random Forest versus LSTM models for stock price prediction.
-
-## Depth of Review
-
-The project integrates financial analysis and machine learning, incorporating contemporary methods and best practices. The literature review ensures that the chosen models and methodologies are relevant and up-to-date, aligning with the project's goals of analyzing and forecasting Tesla's stock performance.
-
-## Applications and Models
-
-- **Machine Learning Models**: Linear Regression, Decision Trees, and Random Forests are employed, with Random Forests deemed suitable for large datasets and preventing overfitting.
-- **Correlation Analysis**: A correlation heatmap visualizes relationships between financial indices, helping to identify important features.
-- **Time-Series Considerations**: Knowledge of time-series methods complements the machine learning approach, aiding in understanding temporal trends in Tesla's stock prices.
-
-## Evidence of Good Practical Work
-
-- **Dataset Description**: The dataset includes Tesla's stock prices and trading volumes from June 29, 2010, to February 3, 2023.
-- **Pre-Processing Steps**:
-  - **Outlier Detection and Treatment**: Boxplots and IQR method are used to identify and handle outliers.
-  - **Normalization**: Min-Max Scaling is applied to standardize feature values.
-  - **Exploratory Data Analysis (EDA)**: Pair plots, histograms, and correlation heatmaps are used to analyze data distributions and relationships.
-
-## Model Training and Evaluation
-
-- **Linear Regression**: Chosen as a baseline model for its simplicity and interpretability, aiming to predict stock trading volume based on historical prices.
+## Abstract 📈 
+ 
+ Thus, this project focuses on the stock prices of Tesla Inc. Starting from June 29, 2010, to February 3, 2023, it highlights such technical aspects of analyzing the stock namely Open, High, Low, Close prices as well as Volume, which shows the trading turnover of the stock with an intention to understand the volatility and fluctuations in the stock price of Tesla and the investors’ sentiment towards it. The knowledge will be useful to investors and analysts when negotiating the stock market and determining the possibilities of future outcome of the share price in relation to Tesla. 
+ 
+ ## Introduction 🚀 
+ 
+ The Auto Manufacturer with a focus on the electric vehicle market, Tesla Inc. , has experienced growth and fluctuation in stock prices attributed by innovation, productions records, and market trends. This project focuses on the Tesla’s Stock data from 29/06/2010 to 03/02/2023 to analyze stock price fluctuations and patterns using financial ratios. It will employ the use of statistical and financial analysis tools which will provide the prognosis and recommendations of the Tesla’s stock prices. 
+ 
+ ## Objectives 🎯 
+ 
+ - **Data Cleaning and Preprocessing**: Deal with missing values and outliers before proceeding to the next stage of the analysis by applying treatments for example using quantiles such as IQR. 
+ - **Feature Normalization and Scaling**: In this case, will have to use Min-Max Scaling together with StandardScaler to normalize data of Open, High, Low, Close, and Volume data so as to enhance the performance of models developed. 
+ - **Exploratory Data Analysis (EDA)**: Use ?box plots, histograms, scatter plots and pair plots? to examine data distributions and or patterns. 
+ - **Model Development and Evaluation**: Develop an experiment of Linear Regression, Decision Tree Regressor and Random Forest Regressor and evaluate all of them using MSE, R²Score and Mean Absolute Error. 
+ - **Model Selection and Optimization**: Define the set of hyperparameters for the given problem and find out the best model to work on; improve the model to achieve better accuracy. 
+ 
+ ## Ethical Considerations ⚖️ 
+ 
+ To respect ethical research practice, only open data will be used, and the patients’ identity will be protected at all times. The research is conducted in a blind fashion so that the results obtained are not distorted by individual attributes of different investors. 
+ 
+## Quality Research and Literature Review 📚 
+ 
+ This project discusses theoretical concepts which are applicable in specific approaches to building stock price prediction models. Such works include those relating to deep learning, LSTM networks as well as machine learning models for predicting stock price. 
+ 
+ ## Critical Assessment of Relevant Published Papers 🔍 
+ 
+ - **Agrawal** investigated deep learning to predict the stock price, while employing deep neural networks to capture the stock price characteristics. 
+ - **Chaudhary et al. ** used LSTM networks for predicting the stock prices so as to identify the time dependent features. 
+ - Multi criteria evaluation of stock price was made using fuzzy logic by **Hašková et al. ** 
+ - **Li** outlined varying Models for Tesla stock prediction and found the precise methods. 
+ - **Madhusudan** applied SVM models for the prediction of stock prices but it emphasized on the aspect of data complexity and reality. 
+ - **Nawawi et al. ** use deep learning for prediction of the Tesla Inc. ’ Stock Prices. 
+ - ;Orsel and Yamada (2022) and SK and Javvadi (2023) have presented the comparison of different machine learning algorithms for stock prediction. 
+ - **Wang (2024)** compared the performance of RF with that of LSTM in the case of stock prices prediction. 
+ 
+ ## Depth of Review 🔬 
+ 
+ The project involves the aspects of finance and application of machine learning along with modern techniques and practices. The literature review guarantees the chosen models, and methodologies are current and appropriate in helping achieve the project’s objectives of analysing and predicting Tesla’s stock price. 
+ 
+ ## Applications and Models 🛠️ 
+ 
+ - **Machine Learning Models**: Linear Regression, Decision trees, and Random Forests are used and the Random Forests are considered appropriate for large data and stops over-emphasis. 
+ - **Correlation Analysis**: A correlation heatmap indicates relations of various financial indices which may help determine what features are espective. 
+ - **Time-Series Considerations**: A knowledge of time series methods helps to enrich the Machine Learning approach and to understand temporal patterns in Tesla’s stock prices. 
+ 
+## Evidence of Good Practical Work 📊 
+ 
+ - **Dataset Description**: It contains Tesla’s daily stock price data and trading volumes from the day NASDAQ’s TSLA started tracking the company, June 29, 2010, to February 3, 2023. 
+ - **Pre-Processing Steps**: 
+ - **Outlier Detection and Treatment**: Two approaches namely the box plots and the IQR method are employed to examine and deal with outliers. 
+ - **Normalization**: The first normalization technique that is used in this model is the Min-Max Scaling which is used to scale the feature values. 
+ - **Exploratory Data Analysis (EDA)**: Data of densities and distributions is examined by the means of pair plots, histograms, and correlation heat maps. 
+ 
+ ## Model Training and Evaluation 🧪 
+ 
+ - **Linear Regression**: Selected for its generalizability because of its ability to be easily understood, attempts to use it to predict trading volume given stock price history.
